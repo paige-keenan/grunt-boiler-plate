@@ -17,5 +17,5 @@ This is a tool to setup projects quickly and effeciently by compiling code, runn
 ## To Work Within Project:
 * Clone Repo
 * Run ```npm install``` from terminal at project level
-* Type ```grunt server``` from terminal project to view localhost of project.
+* Type ```grunt``` from terminal project to view localhost of project.
 
