@@ -11,8 +11,7 @@
     "grunt-express": "^1.4.1",
     "grunt-open": "^0.2.3",
     "jade": "^1.11.0",
-    "load-grunt-config": "^0.19.2",
-    "matchdep": "^1.0.1"
+    "load-grunt-config": "^0.19.2"
   },
   "main": "index.js",
   "scripts": {
