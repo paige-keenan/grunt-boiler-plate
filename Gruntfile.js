@@ -9,5 +9,9 @@ module.exports = function(grunt) {
     'sass',
     'coffee'
   ]);  
+
+  grunt.registerTask('imagemin', [
+	'imagemin'
+  ]);    
 };
 
