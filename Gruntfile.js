@@ -16,6 +16,11 @@ module.exports = function(grunt) {
         tasks: ['jade:compile']
       },   
 
+      coffee: {
+        files: ['application/coffee/*.coffee'],
+        tasks: ['coffee']
+      },
+
       options: {
         livereload: true
       },
@@ -58,6 +63,17 @@ module.exports = function(grunt) {
           'public/index.html': 'application/jade/index.jade'
         }
       }
+    },
+
+    coffee: {
+      glob_to_multiple: {
+        expand: true,
+        flatten: true,
+        cwd: '',
+        src: ['application/coffee/*.coffee'],
+        dest: 'public/main/js/',
+        ext: '.js'
+      }      
     }
 
   });
@@ -71,6 +87,7 @@ module.exports = function(grunt) {
     'open',
     'jade',
     'sass',
+    'coffee',
     'watch'
   ]);
 };

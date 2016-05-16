@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,EAAG;EACF,KAAK,EAAE,GAAG;;AAGX,EAAG;EACF,KAAK,EAAE,IAAI;EAEX,OAAO;IACN,KAAK,EAAE,IAAI;EAGZ,MAAM;IACL,KAAK,EAAE,GAAG;;AAIZ,EAAG;EACF,KAAK,EAAE,MAAM;;AAEd,EAAG;EACF,KAAK,EAAE,GAAG;;AAGX,IAAK;EACJ,UAAU,EAAE,IAAI;;AAGjB,IAAK;EACJ,UAAU,EAAE,IAAI;;AAGjB,CAAE;EACD,KAAK,EAAE,IAAI",
-"sources": ["../../../application/sass/application.scss"],
+"mappings": "",
+"sources": [],
 "names": [],
 "file": "application.css"
 }
