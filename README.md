@@ -6,16 +6,15 @@ This is a tool to setup projects quickly and effeciently by compiling code, runn
 * SASS - Run: ```gem install sass``` in your Terminal window
 
 ## Capabilities:
-* Convert ```Jade``` to ```HTML```
-* Convert ```SASS``` to ```CSS```
+* Write in ```Jade```, ````SASS````, and ```CoffeeScript```
 * Livereload of page when changes are detected
 
 ## Todo:
-* Add ```CoffeeScript``` compiler
 * Minify / Uglify all code
+* Apply imagemin
 * Add unit testing
 
-## To Work Within Project
+## To Work Within Project:
 * Clone Repo
 * Run ```npm install``` from terminal at project level
 * Type ```grunt server``` from terminal project to view localhost of project.
