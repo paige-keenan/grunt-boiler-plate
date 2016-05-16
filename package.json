@@ -19,5 +19,8 @@
   },
   "author": "Paige Keenan",
   "license": "ISC",
-  "description": "Boiler plate Grunt project setup"
+  "description": "Boiler plate Grunt project setup",
+  "dependencies": {
+    "imagemin": "^5.1.2"
+  }
 }
