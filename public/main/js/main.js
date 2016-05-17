@@ -1,4 +1,1 @@
-(function() {
-
-
-}).call(this);
+(function(){$("h1").on("click",function(a){return console.log("hit"),console.log("red")})}).call(this);
