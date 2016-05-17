@@ -11,7 +11,7 @@ module.exports = function(grunt) {
   ]);  
 
   grunt.registerTask('optimize-images', [
-	  'imagemin'
+    'imagemin'
   ]);    
 };
 
