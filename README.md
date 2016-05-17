@@ -7,12 +7,13 @@ This is a tool to setup projects quickly and effeciently by compiling code, runn
 
 ## Capabilities:
 * Write in ```Jade```, ````SASS````, and ```CoffeeScript```
+* Minifies all written code
+* Uglifies scripts
+* Compresses images
 * Livereload of page when changes are detected
 
-## Todo:
-* Minify / Uglify all code
-* Apply imagemin
-* Add unit testing
+## TODO:
+* Apply unit testing
 
 ## To Work Within Project:
 * Clone Repo
