@@ -4,7 +4,6 @@
 # 
 # =============================================
 
-
 module.exports = 
 	glob_to_multiple:
 	  expand: true
