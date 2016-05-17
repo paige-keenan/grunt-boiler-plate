@@ -22,4 +22,5 @@ module.exports = (grunt) ->
     'coffee'
     'uglify:dist'
     'cssmin'
+    'htmlmin'
   ]

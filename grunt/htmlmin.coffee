@@ -5,12 +5,16 @@
 # =============================================
 
 module.exports = 
-  options: {
-    shorthandCompacting: false,
-    roundingPrecision: -1
-  },
-  target: {
-    files: {
-      'public/main/stylesheets/application.css': ['public/main/stylesheets/application.css']
-    }
-  }
+	htmlmin: {
+		options: {
+			removeComments: true,
+			collapseWhitespace: true
+		},
+		files: [{
+			expand: true,
+			cwd: 'public/',
+			src: ['**/*.html'],
+			dest: 'public/',
+			ext: '.html'
+		}]
+	}
