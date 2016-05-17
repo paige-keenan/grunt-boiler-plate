@@ -21,4 +21,5 @@ module.exports = (grunt) ->
     'sass'
     'coffee'
     'uglify:dist'
+    'cssmin'
   ]
