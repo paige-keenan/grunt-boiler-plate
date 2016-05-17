@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
   require('load-grunt-config')(grunt);
 
-  grunt.registerTask('default', [
+  grunt.registerTask('serve', [
     'express',
     'open',
     'watch',
@@ -10,8 +10,8 @@ module.exports = function(grunt) {
     'coffee'
   ]);  
 
-  grunt.registerTask('imagemin', [
-	'imagemin'
+  grunt.registerTask('optimize-images', [
+	  'imagemin'
   ]);    
 };
 

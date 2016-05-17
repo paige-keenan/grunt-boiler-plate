@@ -1,18 +1,17 @@
 # 
-# Minifies images by running ```grunt imagemin``` in your Terminal window
+# Minifies images by running ```grunt optimize-images``` in your Terminal window
+# Run this before delivery of each project to make sure your images are optimized before production.
 # https://www.npmjs.com/package/imagemin
 # 
 # =============================================
 
-
 module.exports = imagemin:
-	dynamic:
-		options: 
-			cache: false
-		dist: 
-			files: [{
-				expand: true
-				cwd: 'application/images/'
-				src: [ '*.{png,jpg,gif}' ]
-				dest: 'public/main/images/'
-			}]
+  files: [ {
+    expand: true
+    cwd: 'application/images/'
+    src: [ '*.{png,jpg,gif}' ]
+    dest: 'public/main/images/'
+  } ]
+  options: 
+  	cache: false,
+  	optimizationLevel: 5
