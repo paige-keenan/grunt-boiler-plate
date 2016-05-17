@@ -13,7 +13,7 @@ module.exports =
     tasks: [ 'sass' ]
   jade:
     files: [ 'application/jade/*.jade' ]
-    tasks: [ 'jade:compile' ]
+    tasks: [ 'jade' ]
   coffee:
     files: [ 'application/coffee/*.coffee' ]
     tasks: [ 'coffee' ]

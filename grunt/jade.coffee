@@ -4,6 +4,17 @@
 # 
 # =============================================
 
-module.exports = compile:
-  options: pretty: true
-  files: 'public/index.html': 'application/jade/index.jade'
+module.exports = 
+	jade: {
+	  options: {
+	  	pretty: true
+	  },	
+		files: [{
+			expand: true,
+			cwd: 'application/jade/',
+			src: ['**/*.jade'],
+			dest: 'public/',
+			ext: '.html'
+		}]
+	}
+  
