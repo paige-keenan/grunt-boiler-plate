@@ -2,7 +2,7 @@
 This is a tool to setup projects quickly and effeciently by compiling code, running watch tasks, and a few other things to expedite the coding process. 
 
 This will get you setup on a new project, if you want to add any additional dependencies - add them to the package.json file.
-Pull request are welcome.
+Pull requests are welcome.
 
 ### Dependencies: 
 * [Lastest version of Node](https://nodejs.org/en/download/)
