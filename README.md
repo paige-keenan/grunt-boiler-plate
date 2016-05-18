@@ -10,16 +10,16 @@ Pull request are welcome.
 
 ### Serving the project for development:
 ```sh
-Clone Repo
+# Clone Repo
 npm install
 grunt serve
 ``` 
 ### Building the project for production:
 ```sh
-Clone Repo
+# Clone Repo
 npm install
 grunt build
-
+```
 ### Capabilities:
 * Write in ```Jade```, ````SASS````, and ```CoffeeScript```
 * Minifies all written code
