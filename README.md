@@ -9,6 +9,7 @@ Pull requests are welcome.
 * SASS - Run: ```gem install sass``` in your Terminal window
 
 ### Serving the project for development:
+All development code will be accessed in the ```application``` folder of your project.
 ```sh
 # Clone or Fork Repo
 git clone https://github.com/paige-keenan/gruntBoilerPlate.git
@@ -18,6 +19,7 @@ npm install
 grunt serve
 ``` 
 ### Building the project for production:
+All production code will be deployed to the ```public``` folder of your project.
 ```sh
 # Clone or Fork Repo
 git clone https://github.com/paige-keenan/gruntBoilerPlate.git
@@ -37,6 +39,7 @@ grunt build
 * Fork repo
 * Make changes and push them up to your fork
 * Log onto ```https://github.com/YOUR-USERNAME/gruntBoilerPlate/pulls``` and create pull request from your branch to ```develop```
+
 
 ### TODO:
 * Apply unit testing
