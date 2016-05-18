@@ -10,13 +10,19 @@ Pull requests are welcome.
 
 ### Serving the project for development:
 ```sh
-# Clone Repo
+# Clone or Fork Repo
+git clone https://github.com/paige-keenan/gruntBoilerPlate.git
+# or
+git clone https://github.com/YOUR-USERNAME/gruntBoilerPlate.git
 npm install
 grunt serve
 ``` 
 ### Building the project for production:
 ```sh
-# Clone Repo
+# Clone or Fork Repo
+git clone https://github.com/paige-keenan/gruntBoilerPlate.git
+# or
+git clone https://github.com/YOUR-USERNAME/gruntBoilerPlate.git
 npm install
 grunt build
 ```
@@ -26,6 +32,11 @@ grunt build
 * Uglifies scripts
 * Compresses images
 * Livereload of page when changes are detected
+
+### To submit Pull Requests:
+* Fork repo
+* Make changes and push them up to your fork
+* Log onto ```https://github.com/YOUR-USERNAME/gruntBoilerPlate/pulls``` and create pull request from your branch to ```develop```
 
 ### TODO:
 * Apply unit testing
