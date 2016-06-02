@@ -9,21 +9,17 @@ Pull requests are welcome.
 * SASS - Run: ```gem install sass``` in your Terminal window
 
 ### Serving the project for development:
-All development code will be accessed in the ```application``` folder of your project.
+The ```grunt serve``` task creates a local server, updates any changes automatically, and coverts ```Jade```, ```SCSS```, and ```CoffeeScript``` to their perspective browser counterparts
+***All development code can be accessed in the ```application``` folder of your project.***
 ```sh
-# Clone or Fork Repo
-git clone https://github.com/paige-keenan/gruntBoilerPlate.git
-# or
 git clone https://github.com/YOUR-USERNAME/gruntBoilerPlate.git
 npm install
 grunt serve
 ``` 
 ### Building the project for production:
-All production code will be deployed to the ```public``` folder of your project.
+The ```grunt build``` task minfies all code, uglifies the scripts, and minifies all images in addition to coverting ```Jade```, ```SCSS```, and ```CoffeeScript``` to their perspective browser counterparts.
+***All production code will be deployed to the ```public``` folder of your project.***
 ```sh
-# Clone or Fork Repo
-git clone https://github.com/paige-keenan/gruntBoilerPlate.git
-# or
 git clone https://github.com/YOUR-USERNAME/gruntBoilerPlate.git
 npm install
 grunt build
@@ -39,7 +35,6 @@ grunt build
 * Fork repo
 * Make changes and push them up to your fork
 * Log onto ```https://github.com/YOUR-USERNAME/gruntBoilerPlate/pulls``` and create pull request from your branch to ```develop```
-
 
 ### TODO:
 * Apply unit testing
