@@ -10,7 +10,8 @@ Pull requests are welcome.
 
 ### Serving the project for development:
 The ```grunt serve``` task creates a local server, updates any changes automatically, and coverts ```Jade```, ```SCSS```, and ```CoffeeScript``` to their perspective browser counterparts
-***All development code can be accessed in the ```application``` folder of your project.***
+
+**All development code can be accessed in the ```application``` folder of your project.**
 ```sh
 git clone https://github.com/YOUR-USERNAME/gruntBoilerPlate.git
 npm install
@@ -18,7 +19,8 @@ grunt serve
 ``` 
 ### Building the project for production:
 The ```grunt build``` task minfies all code, uglifies the scripts, and minifies all images in addition to coverting ```Jade```, ```SCSS```, and ```CoffeeScript``` to their perspective browser counterparts.
-***All production code will be deployed to the ```public``` folder of your project.***
+
+**All production code will be deployed to the ```public``` folder of your project.**
 ```sh
 git clone https://github.com/YOUR-USERNAME/gruntBoilerPlate.git
 npm install
