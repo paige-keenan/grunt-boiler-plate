@@ -13,7 +13,7 @@ The ```grunt serve``` task creates a local server, updates any changes automatic
 
 **All development code can be accessed in the ```application``` folder of your project.**
 ```sh
-git clone https://github.com/YOUR-USERNAME/gruntBoilerPlate.git
+git clone https://github.com/paige-keenan/gruntBoilerPlate.git
 npm install
 grunt serve
 ``` 
@@ -22,7 +22,7 @@ The ```grunt build``` task minfies all code, uglifies the scripts, and minifies 
 
 **All production code will be deployed to the ```public``` folder of your project.**
 ```sh
-git clone https://github.com/YOUR-USERNAME/gruntBoilerPlate.git
+git clone https://github.com/paige-keenan/gruntBoilerPlate.git
 npm install
 grunt build
 ```
